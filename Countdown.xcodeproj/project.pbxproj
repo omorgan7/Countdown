@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A057D151F6AF7340099639A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A057D141F6AF7340099639A /* logo.png */; };
+		5A057D211F6AF9410099639A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A057D201F6AF9410099639A /* Assets.xcassets */; };
+		5A057D321F6AFEF60099639A /* logo-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A057D2E1F6AFEF60099639A /* logo-iPhone@2x.png */; };
+		5A057D331F6AFEF60099639A /* logo-iPhone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A057D2F1F6AFEF60099639A /* logo-iPhone@3x.png */; };
+		5A057D341F6AFEF60099639A /* logo-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A057D301F6AFEF60099639A /* logo-iPad.png */; };
+		5A057D351F6AFEF60099639A /* logo-iPadPro.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A057D311F6AFEF60099639A /* logo-iPadPro.png */; };
+		5A2F21961F5EDA02002BB663 /* countdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F21941F5EDA02002BB663 /* countdown.wav */; };
+		5A2F21971F5EDA02002BB663 /* countdownloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F21951F5EDA02002BB663 /* countdownloop.wav */; };
+		5A2F219D1F5EE0AF002BB663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F21991F5EE0AF002BB663 /* AppDelegate.swift */; };
+		5A2F219F1F5EE0AF002BB663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F219C1F5EE0AF002BB663 /* LaunchScreen.storyboard */; };
+		5A2F21A21F5F4FEF002BB663 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F21A11F5F4FEF002BB663 /* Timer.swift */; };
+		5AD49A411F6A826B009FE57F /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD49A401F6A826B009FE57F /* Spinner.swift */; };
 		5AD571EF1F5ED0F1004958A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD571EE1F5ED0F1004958A3 /* ViewController.swift */; };
 		5AD571F21F5ED0F1004958A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD571F01F5ED0F1004958A3 /* Main.storyboard */; };
-		5AD571F41F5ED0F1004958A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD571F31F5ED0F1004958A3 /* Assets.xcassets */; };
-		5AD571F71F5ED0F1004958A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD571F51F5ED0F1004958A3 /* LaunchScreen.storyboard */; };
 		5AD571FF1F5ED224004958A3 /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD571FE1F5ED224004958A3 /* pointer.png */; };
 		5AD572011F5ED22F004958A3 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD572001F5ED22F004958A3 /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A057D141F6AF7340099639A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5A057D201F6AF9410099639A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A057D2E1F6AFEF60099639A /* logo-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-iPhone@2x.png"; path = "temp/logo-iPhone@2x.png"; sourceTree = "<group>"; };
+		5A057D2F1F6AFEF60099639A /* logo-iPhone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-iPhone@3x.png"; path = "temp/logo-iPhone@3x.png"; sourceTree = "<group>"; };
+		5A057D301F6AFEF60099639A /* logo-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-iPad.png"; path = "temp/logo-iPad.png"; sourceTree = "<group>"; };
+		5A057D311F6AFEF60099639A /* logo-iPadPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-iPadPro.png"; path = "temp/logo-iPadPro.png"; sourceTree = "<group>"; };
+		5A2F21941F5EDA02002BB663 /* countdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = countdown.wav; sourceTree = "<group>"; };
+		5A2F21951F5EDA02002BB663 /* countdownloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = countdownloop.wav; sourceTree = "<group>"; };
+		5A2F21991F5EE0AF002BB663 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../FaceView/FaceView/AppDelegate.swift; sourceTree = "<group>"; };
+		5A2F219B1F5EE0AF002BB663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A2F21A11F5F4FEF002BB663 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		5AD49A401F6A826B009FE57F /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		5AD571E91F5ED0F1004958A3 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD571EE1F5ED0F1004958A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AD571F11F5ED0F1004958A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5AD571F31F5ED0F1004958A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AD571F61F5ED0F1004958A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AD571F81F5ED0F1004958A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD571FE1F5ED224004958A3 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
 		5AD572001F5ED22F004958A3 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
@@ -37,6 +57,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A2F21981F5EDA09002BB663 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F21941F5EDA02002BB663 /* countdown.wav */,
+				5A2F21951F5EDA02002BB663 /* countdownloop.wav */,
+			);
+			name = SFX;
+			sourceTree = "<group>";
+		};
+		5A2F21A01F5EE0BB002BB663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD571F81F5ED0F1004958A3 /* Info.plist */,
+				5A2F21991F5EE0AF002BB663 /* AppDelegate.swift */,
+				5A057D141F6AF7340099639A /* logo.png */,
+				5A057D201F6AF9410099639A /* Assets.xcassets */,
+				5A057D2E1F6AFEF60099639A /* logo-iPhone@2x.png */,
+				5A057D2F1F6AFEF60099639A /* logo-iPhone@3x.png */,
+				5A057D301F6AFEF60099639A /* logo-iPad.png */,
+				5A057D311F6AFEF60099639A /* logo-iPadPro.png */,
+				5A2F219C1F5EE0AF002BB663 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5AD571E01F5ED0F1004958A3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +101,13 @@
 		5AD571EB1F5ED0F1004958A3 /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				5A2F21981F5EDA09002BB663 /* SFX */,
 				5AD572021F5ED238004958A3 /* Sprites */,
 				5AD571EE1F5ED0F1004958A3 /* ViewController.swift */,
+				5AD49A401F6A826B009FE57F /* Spinner.swift */,
+				5A2F21A11F5F4FEF002BB663 /* Timer.swift */,
 				5AD571F01F5ED0F1004958A3 /* Main.storyboard */,
-				5AD571F31F5ED0F1004958A3 /* Assets.xcassets */,
-				5AD571F51F5ED0F1004958A3 /* LaunchScreen.storyboard */,
-				5AD571F81F5ED0F1004958A3 /* Info.plist */,
+				5A2F21A01F5EE0BB002BB663 /* Supporting Files */,
 			);
 			path = Countdown;
 			sourceTree = "<group>";
@@ -135,10 +181,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AD571F71F5ED0F1004958A3 /* LaunchScreen.storyboard in Resources */,
 				5AD572011F5ED22F004958A3 /* clock.png in Resources */,
-				5AD571F41F5ED0F1004958A3 /* Assets.xcassets in Resources */,
 				5AD571F21F5ED0F1004958A3 /* Main.storyboard in Resources */,
+				5A057D321F6AFEF60099639A /* logo-iPhone@2x.png in Resources */,
+				5A2F21961F5EDA02002BB663 /* countdown.wav in Resources */,
+				5A2F21971F5EDA02002BB663 /* countdownloop.wav in Resources */,
+				5A057D331F6AFEF60099639A /* logo-iPhone@3x.png in Resources */,
+				5A057D341F6AFEF60099639A /* logo-iPad.png in Resources */,
+				5A057D151F6AF7340099639A /* logo.png in Resources */,
+				5A057D351F6AFEF60099639A /* logo-iPadPro.png in Resources */,
+				5A2F219F1F5EE0AF002BB663 /* LaunchScreen.storyboard in Resources */,
+				5A057D211F6AF9410099639A /* Assets.xcassets in Resources */,
 				5AD571FF1F5ED224004958A3 /* pointer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD49A411F6A826B009FE57F /* Spinner.swift in Sources */,
+				5A2F21A21F5F4FEF002BB663 /* Timer.swift in Sources */,
+				5A2F219D1F5EE0AF002BB663 /* AppDelegate.swift in Sources */,
 				5AD571EF1F5ED0F1004958A3 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,20 +213,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		5A2F219C1F5EE0AF002BB663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2F219B1F5EE0AF002BB663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../../FaceView/FaceView;
+			sourceTree = "<group>";
+		};
 		5AD571F01F5ED0F1004958A3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5AD571F11F5ED0F1004958A3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5AD571F51F5ED0F1004958A3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AD571F61F5ED0F1004958A3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +373,7 @@
 				5AD571FD1F5ED0F1004958A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
